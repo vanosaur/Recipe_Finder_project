@@ -1,0 +1,118 @@
+body{
+    background-image: url(image.png);
+}
+
+h1{
+    font-family: 'PixelFont', sans-serif;
+    font-size: 80px;
+    color: white;
+    text-shadow: 4px 4px 0px #4a4848;
+    text-align: center;
+}
+
+h2{
+    margin-top: -50px;
+    text-align: center;
+    color: white;
+    font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+    font-size: 28px;
+
+}
+header {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+form {
+    display: flex;
+    gap: px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 0;
+  }
+  
+  input[type="text"] {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 800px;
+    font-size: 16px;
+    padding: 12px;
+    width: 300px;
+  }
+  .btn {
+    cursor: pointer;
+  }
+  button[type="submit"] {
+    background-color: #ccb086;
+    border: none;
+    border-radius: 100px;
+    color: #1a1616;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 12px 20px;
+    transition: background-color 0.2s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: rgb(150, 129, 89);
+  }
+  
+  #results {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(4,1fr);
+    margin: 40px 40px;
+  }
+  
+  #results > div {
+    background-color: #d0cece;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  #results img {
+    border-radius: 8px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+  }
+  
+  #results h3 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  #results ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #results li {
+    list-style:circle;
+    margin-left: 20px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    margin-bottom: 10px;
+  }
+  
+  #results a {
+    background-color: #26405e;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;  /*isse link ki underline chup jati hai*/
+    margin-top: 10px;
+  }
+  
+  #results a:hover {
+    background-color: #112134;
+  }
