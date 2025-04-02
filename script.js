@@ -8,7 +8,7 @@ searchForm.addEventListener('submit', (e) => {
 })
 async function searchRecipes() {
     const searchValue = searchInput.value.trim();
-    const response = await fetch(`https://api.edamam.com/search?q=${encodeURIComponent(searchValue)}&app_id=9276da93&app_key=b6fa89e89d2b9ee095a51b8534cd6a11`);
+    const response = await fetch(`https://api.edamam.com/api/recipes/v2?type=public&q=${encodeURIComponent(searchValue)}&app_id=9276da93&app_key=b6fa89e89d2b9ee095a51b8534cd6a11`);
     const data = await response.json();
     console.log(data);  // Add this line to check the API response
     displayRecipes(data.hits);
