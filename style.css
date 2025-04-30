@@ -119,3 +119,12 @@ form {
   #results a:hover {
     background-color: #112134;
   }
+
+  #loading-message {
+    text-align: center;
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
